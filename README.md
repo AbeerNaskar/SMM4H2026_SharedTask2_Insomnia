@@ -27,11 +27,11 @@ All the files provided by the shared task, and addition to that ```sample_corpus
 Codes are end to end. Just place the data and code in the mentioned structure and run below codes. D experiment with different models and parameters.
 
 ## Subtask1 and Subtask2 (BERT encoder model) 
-```python Subtask_1_2.py``` \\
+```python Subtask_1_2.py``` <br/>
 This code generate two different output corresponding to both subtask, ```subtask_1_predictions_eff.json``` and ```subtask_2_predictions_eff.json```.
 
 ## Subtask1 (Ensemble) 
-```python Subtask_1.py``` \\
+```python Subtask_1.py``` <br/>
 This code generate one single output corresponding to subtask 1, ```test_predictions_subtask1_ensemble.json```.
 
 
