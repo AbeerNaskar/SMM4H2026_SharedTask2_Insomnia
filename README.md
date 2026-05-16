@@ -56,9 +56,9 @@ We are getting our best output using ```test_predictions_subtask1_ensemble.json`
 
 ---
 
-# Test Set Performance Summary Across All Teams
+# Test Set Performance Summary (provided by organizers)
 
-### Subtask 1 (provided by organizers)
+### Subtask 1 
 
 | Statistic | Precision | Recall | F-1 score |
 |---|---:|---:|---:|
@@ -67,7 +67,7 @@ We are getting our best output using ```test_predictions_subtask1_ensemble.json`
 
 ---
 
-### Subtask 2 (provided by organizers)
+### Subtask 2 
 
 | Statistic | Label Classification | Exact Match | Partial Match |
 |---|---:|---:|---:|
