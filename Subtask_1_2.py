@@ -525,7 +525,7 @@ def evaluate_document_level_ensemble(models, records, device):
 # -------------------------------
 def hyperparameter_tuning(train_records, val_records):
     if len(val_records) == 0 or len(train_records) == 0:
-        print("Validation or training set empty – using default hyperparameters.")
+        print("Validation or training set empty - using default hyperparameters.")
         return {"lr": 2e-5, "batch_size": 2, "epochs": 15}
     
     lr_options = [2e-5, 5e-5]
@@ -573,7 +573,7 @@ def main():
         best_params = hyperparameter_tuning(train_records, val_records)
     else:
         best_params = {"lr": 2e-5, "batch_size": 2, "epochs": 15}
-        print("Insufficient data for tuning – using default hyperparameters.")
+        print("Insufficient data for tuning - using default hyperparameters.")
     
     # Combine train+val
     combined_records = train_records + val_records
