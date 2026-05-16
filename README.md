@@ -38,13 +38,13 @@ This code generate one single output corresponding to subtask 1, ```test_predict
 
 # Results
 
-We are getting our best output using ```test_predictions_subtask1_ensemble.json``` and ```subtask_2_predictions_eff.json```. Below is our score and mean/median score (mail from organizers). **Bold** means it surpass mean and median score.   
+We are getting our best output using ```test_predictions_subtask1_ensemble.json``` and ```subtask_2_predictions_eff.json```. Below is our score and mean/median score (mail from organizers). **Bold** and ★ means it surpass mean and median score.   
 
 ### Subtask 1 ours best
 
 | Submission Date/Time | Filename | Precision | Recall | F-1 score |
 |---|---|---:|---:|---:|
-| 4/15/2026 2:48 PM | subtask_1.zip | 0.5455 | **0.9474** | 0.6923 |
+| 4/15/2026 2:48 PM | subtask_1.zip | 0.5455 | **0.9474** ★ | 0.6923 |
 
 ---
 
@@ -52,7 +52,7 @@ We are getting our best output using ```test_predictions_subtask1_ensemble.json`
 
 | Submission Date/Time | Filename | Label Classification | Exact Match | Partial Match |
 |---|---|---:|---:|---:|
-| 4/15/2026 3:48 PM | subtask_2.zip | **0.6444** | **0.4472** | **0.5093** |
+| 4/15/2026 3:48 PM | subtask_2.zip | **0.6444** ★ | **0.4472** ★ | **0.5093** ★ |
 
 ---
 
