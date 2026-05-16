@@ -1,10 +1,12 @@
 """
-Subtask 1 – Binary Insomnia Classification
-Ensemble: Qwen (unsloth/Qwen3-4B-Instruct-2507) + ModernBERT-base
+Subtask 1 - Binary Insomnia Classification
+Ensemble: Qwen (unsloth/Qwen3-4B-Instruct-2507) + Bio_ClinicalBERT
 Span identification is handled in subtask2_span.py separately.
 
 Train on ./train/  +  ./val/  (combined for final model after HP tuning on val)
 Test  on ./test/
+
+
 
 Outputs:
   test_predictions_subtask1_ensemble.json
