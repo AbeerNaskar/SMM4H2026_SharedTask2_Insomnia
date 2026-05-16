@@ -35,3 +35,41 @@ This code generate two different output corresponding to both subtask, ```subtas
 This code generate one single output corresponding to subtask 1, ```test_predictions_subtask1_ensemble.json```.
 
 
+
+# Results
+
+We are getting our best output using ```test_predictions_subtask1_ensemble.json``` and ```subtask_2_predictions_eff.json```. Below is our score and mean/median score (mail from organizers). **Bold** means it surpass mean and median score.   
+
+### Subtask 1 ours best
+
+| Submission Date/Time | Filename | Precision | Recall | F-1 score |
+|---|---|---:|---:|---:|
+| 4/15/2026 2:48 PM | subtask_1.zip | 0.5455 | **0.9474** | 0.6923 |
+
+---
+
+### Subtask 2 ours best
+
+| Submission Date/Time | Filename | Label Classification | Exact Match | Partial Match |
+|---|---|---:|---:|---:|
+| 4/15/2026 3:48 PM | subtask_2.zip | **0.6444** | **0.4472** | **0.5093** |
+
+---
+
+# Test Set Performance Summary Across All Teams
+
+### Subtask 1 (provided by organizers)
+
+| Statistic | Precision | Recall | F-1 score |
+|---|---:|---:|---:|
+| Mean | 0.7336 | 0.6935 | 0.6805 |
+| Median | 0.8333 | 0.6842 | 0.7037 |
+
+---
+
+### Subtask 2 (provided by organizers)
+
+| Statistic | Label Classification | Exact Match | Partial Match |
+|---|---:|---:|---:|
+| Mean | 0.5888 | 0.3129 | 0.4584 |
+| Median | 0.6000 | 0.3586 | 0.4524 |
