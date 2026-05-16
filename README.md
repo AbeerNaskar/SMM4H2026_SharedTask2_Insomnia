@@ -89,15 +89,4 @@ We are getting our best output using ```test_predictions_subtask1_ensemble.json`
 
 ---
 
-## Citation
 
-If you use the shared task resources, please cite:
-
-```bibtex
-@inproceedings{smm4h-heard-overview-2026,
-  author = "Lopez-Garcia, Guillermo and Acitores Cortina, Jose Miguel and Berkowitz, Jacob and Chan, Joey and Chandrasekar, Ganesh and Dey, Sumon Kanti and Flores Amaro, Ivan and Gallego, Fernando and Gryboski, Lauren and Klein, Ari Z and Krallinger, Martin and Lima-López, Salvador and Nishiyama, Tomohiro and Raithel, Lisa and Rezaie Mianroodi, Ahmad and Roller, Roland and Rosell, Judith and Rudzicz, Frank and Sarker, Abeed and Tatonetti, Nicholas and Thomas, Philippe and Tutubalina, Elena and Xu, Dongfang and Zaidi, Farnaz and Zhai Yu and Zweigenbaum, Pierre and Gonzalez-Hernandez, Graciela",
-  year = 2026,
-  title = "{Overview of the 11th Social Media Mining for Health (\#SMM4H) and Health Real-World Data (HeaRD) Shared Tasks at ACL 2026}",
-  booktitle = "Proceedings of the 11th Social Media Mining for Health (\#SMM4H) and Health Real-World Data (HeaRD) Workshop and Shared Tasks",
-  publisher = "Association for Computational Linguistics"
-}
