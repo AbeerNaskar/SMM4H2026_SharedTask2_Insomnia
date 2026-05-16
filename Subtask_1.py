@@ -225,7 +225,7 @@ def train_model(model_name, hidden, lr, max_len, stride,
         if f1 > best_f1:
             best_f1  = f1
             best_state = {k: v.cpu().clone() for k, v in model.state_dict().items()}
-            print(f"    ✓ best={best_f1:.4f}")
+            print(f"     best={best_f1:.4f}")
 
     print(f"  [{tag}] Best val-F1 = {best_f1:.4f}")
     return model, best_state, tok
@@ -336,7 +336,7 @@ def main():
     with open("test_predictions_subtask1_ensemble_fixed.json", "w") as f:
         json.dump(out, f, indent=2)
     yes = sum(1 for v in results.values() if v == "yes")
-    print(f"Saved → test_predictions_subtask1_ensemble.json  (yes={yes}, no={len(results)-yes})")
+    print(f"Saved -> test_predictions_subtask1_ensemble.json  (yes={yes}, no={len(results)-yes})")
 
 if __name__ == "__main__":
     main()
