@@ -18,7 +18,7 @@
 ├── Subtask_2.py
 ```
 
-All the files provided by the shared task, and addition to that ```sample_corpus.csv``` has two columns ```note_id``` and ```text```, which is corresponding to the given ```note_id``` the corresponding MIMIC note in ```text``` column.
+All the files provided by the shared task. Addition to that, for each set we have created ```sample_corpus.csv``` has two columns ```note_id``` and ```text```, which is corresponding to the given ```note_id``` the corresponding MIMIC note in ```text``` column.
 
 
 
