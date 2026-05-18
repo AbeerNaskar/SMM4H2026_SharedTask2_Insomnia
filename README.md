@@ -15,7 +15,7 @@
 │── test/            # Test split
 │    └── sample_corpus.csv
 ├── Subtask_1_2.py
-├── Subtask_2.py
+├── Subtask_1.py
 ```
 
 All the files provided by the shared task. Addition to that, for each set we have created ```sample_corpus.csv``` has two columns ```note_id``` and ```text```, which is corresponding to the given ```note_id``` the corresponding MIMIC note in ```text``` column.
